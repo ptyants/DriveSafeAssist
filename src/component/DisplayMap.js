@@ -63,7 +63,7 @@ const DisplayMap = () => {
       const keyword = encodeURIComponent(searchText); // Từ khóa tìm kiếm từ người dùng
       const type = 'cafe'; // Chỉ tìm kiếm loại 'restaurant'
   
-      const url = `https://maps.googleapis.com/maps/api/place/textsearch/json?query="hotel"&key="AIzaSyA2e9ZEjQrCVRRdUtXUm3-kYtWraRc8G-M"`;
+      const url = `https://maps.googleapis.com/maps/api/place/textsearch/json?query="hotel"&key="{your-key-GG-API but it doesn't needed}"`;
   
       const response = await fetch(url);
       console.log(response)
